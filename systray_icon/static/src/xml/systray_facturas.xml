@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+ <t t-name="systray_facturas" owl="1">
+     <div class="new_icon">
+         <div class="icon_div">
+             <div class="toggle-icon" role="button">
+               <i id='rute_facturas' t-on-click="_onClick"
+                  class="fa fa-money fa-1.5x"
+                  style="color: white; margin-bottom:10px; padding:13px;"/>
+             </div>
+         </div>
+     </div>
+ </t>
+</templates>
